@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+\moderncvtheme[purple]{classic}
+\moderncvicons{awesome}                     
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome5}
+
+\usepackage[unicode]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\firstname{Adil}
+\familyname{Alkozha}
+\address{}{Almaty, Kazakhstan}
+\mobile{+7 700 0701471}
+\email{1101.debian@gmail.com}
+\homepage{https://lowlevelbits.org}
+\social[github]{adialkozha}
+\social[telegram]{adilalkozha}
+\extrainfo{First, solve the problem. Then, write the code.}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\maketitle
+
+\section{Projects}
+  \subsection{Commercial Projects}
+  \cvline
+    {Home Credit}
+    {\url{https://homecredit.kz/}\newline{}
+    \textbf{Home Credit's web application}\newline{}
+    }
+\section{Experience}
+\cventry
+  {Jul 2020 - now}
+  {Software developer}
+  {Home Credit Bank, Almaty, Kazakhstan}
+  {\newline{}\url{https://homecredit.kz/}}{}
+  {Backend: I participate in the development of a project with a microserver architecture on the Molecular  Service,  development of services for the server side of the project, api to them, connection to the    database.\newline Frontend:I participate in the development of interfaces in vue using the vue ecosystem}
+\section{Technical Skills}
+\cvline
+  {Languages}{JavaScript, C\#}
+\cvline
+  {Frameworks}{VueJS, NuxtJS, NestJS, MoleculerJS}
+\cvline
+  {Version-control}{GitHub,GitLab}
+\cvline
+  {OS}{Linux (Mint), Windows}
+\cvline
+  {Techniques}{Scrum, Agile}
+
+\section{Education}
+  \subsection{University}
+  \cventry
+    {May 2018 - Jul 2022}
+    {Computer Scince and Software, Bachelor}
+    {Suleyman Demirel University,Almaty Kazakhstan}
+    {}{\newline\url{https://sdu.edu.kz/}}{}
+  \cventry
+    {Nov 2019 - Aug 2020}
+    {Software Development}
+    {Computer Academy "Step", Donetsk, Ukraine}
+    {}{\newline\url{https://almaty.itstep.org/}}{}
+\end{document}
